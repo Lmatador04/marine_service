@@ -8,11 +8,11 @@ const AppLink = ({children, className, href}) =>
 export default function Header() { 
     return (
         <>
-<Navbar bg="light" expand="lg">
+<Navbar bg="dark" variant=" dark" expand="lg">
   <Navbar.Brand href="#home">
   <img
-        src="/Logo MML.PNG"
-        width="150"
+        src="/logo.jpg"
+        width="250"
         height="60"
         className="d-inline-block align-top"
         alt="MacGregor Marine logo"
@@ -36,7 +36,7 @@ export default function Header() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="Damen.jpg"
+      src="remorqueur.jpg"
       width="100"
       height="400"
       alt="Remorqueur de type Damen Stan"
@@ -58,7 +58,15 @@ export default function Header() {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
+<style jsx>{
+        `.nav-link{
+          color: #eaeaea;
+          
+        }
+        `
+      }
 
+      </style>
 
 
 </>

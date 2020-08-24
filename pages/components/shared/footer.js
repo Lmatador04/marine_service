@@ -1,12 +1,11 @@
 import { Row, Col, Card, Container } from 'react-bootstrap';
-
-
+//import styles from '../../styles/Home.module.css'
 //import { faHome } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer(){
     return(
 <div className="pt-4 my-md-5 pt-md-5 mt-3 border-top">
-      <Container>
+      <Container className ="footer">
         <Row>
           <Col xs={6} md={4}>
           <h5>Liens Rapides</h5>
@@ -40,6 +39,22 @@ export default function Footer(){
         </Row>
         
         </Container>
+        <style jsx>{
+        `.footer{
+          
+          justify-content: center;
+          align-items: center;
+          background-color: #03224c
+        }
+        h5{
+          color: #002e5d;
+        }
+        }
+        `
+      }
+
+      </style>
+
         </div>
     )
 }

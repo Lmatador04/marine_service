@@ -34,14 +34,12 @@ export default function Servicelist() {
 
       </Row>
   <Row>
-  <Col xs={12} md={12}>
+  <Col lg={6} md={6}>
   <div className="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
          <div className="col p-4 d-flex flex-column position-static">
-
-        <Image src="location.jpg" className="text-center" roundedCircle  style={{ width: '18rem' }}/>
         <h4 className="text-center"> Nous intervenons sur le golfe de Guinée notamment au:</h4>
-    <ul >
-        <li>
+    <ul  >
+        <li >
        <strong>Nigéria</strong> </li>
  
  <li><strong>Cameroun</strong> </li>
@@ -57,16 +55,34 @@ export default function Servicelist() {
       </div>
       </div>
       </Col>
+
+      <Col lg={6} md={6}>
+      <div className="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+         <div className="col p-4 d-flex flex-column position-static">
+
+        <Image src="location.jpg" className="text-center" roundedCircle  style={{ width: '15rem' }}/>
+        </div>
+        </div>
+      </Col>
   </Row>
 
    
 
       </Container>
       <style jsx>{
-        `.mb-2{
-          color: #002e5d;
-          
-        }
+        `.text-center{
+          display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  h4{
+    justify-content: center;
+    color: #002e5d;
+  }
+  h2{
+    justify-content: center;
+    color: #002e5d;
+  }
         `
       }
 

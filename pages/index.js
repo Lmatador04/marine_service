@@ -34,19 +34,6 @@ Constituée d’une équipe de professionnel à votre écoute. Nous vous offrons
 mesure pour chaque type d’opération.
       </p>
 
-
-
-
-
-
-
-  
-   <p className="card-text mb-auto justify">
-    Est une entreprise spécialisée dans les services maritimes et l’affrètement dans le golfe de guinée.
-Constituée d’une équipe de professionnel à votre écoute. Nous vous offrons une solution adaptée et sur
-mesure pour chaque type d’opération.
-      </p>
-
       </div>
       </div>
     </Col>
