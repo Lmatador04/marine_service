@@ -1,4 +1,6 @@
 import { Row, Col, Card, Container } from 'react-bootstrap';
+
+import { ArrowRight } from 'react-bootstrap-icons';
 //import styles from '../../styles/Home.module.css'
 //import { faHome } from "@fortawesome/free-solid-svg-icons";
 
@@ -10,7 +12,7 @@ export default function Footer(){
           <Col xs={6} md={4}>
           <h5>Liens Rapides</h5>
         <ul className="list-unstyled text-small">
-          <li><a className="text-muted" href="#">Services et marchés</a></li>
+          <li><a className="text-muted" href="#"><ArrowRight color="royalblue" size={96} />Services et marchés</a></li>
           <li><a className="text-muted" href="#">Partenaires</a></li>
           <li><a className="text-muted" href="#">Accueil</a></li>
 
@@ -20,7 +22,7 @@ export default function Footer(){
           <h5>Contactez nous</h5>
         <ul className="list-unstyled text-small">
           <li><a className="text-muted" href="#">  Tel: +33 749 449 619/ +239 991 17586</a></li>
-          <li><a className="text-muted" href="#">   Location: Rue morta, ao lado do BISTP Sao Tomé e principe</a></li>
+          <li><a className="text-muted" href="#">   Location: Rue morta, ao lado do BISTP Sao Tomé et principe</a></li>
           <li><a className="text-muted" href="#"> Mail: info@macgregor-ms.com</a></li>
           <li><a className="text-muted" href="#">  Terms</a></li>
         </ul>

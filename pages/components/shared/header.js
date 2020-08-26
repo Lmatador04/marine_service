@@ -8,22 +8,23 @@ const AppLink = ({children, className, href}) =>
 export default function Header() { 
     return (
         <>
-<Navbar bg="dark" variant=" dark" expand="lg">
+<Navbar bg="light"  expand="lg">
   <Navbar.Brand href="#home">
   <img
-        src="/logo.jpg"
+        src="/macgregor logo.png"
         width="250"
         height="60"
         className="d-inline-block align-top"
         alt="MacGregor Marine logo"
       />
   </Navbar.Brand>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
+  <Navbar.Toggle aria-controls="basic-navbar-nav" className= "basic-navbar-nav" />
+  <Navbar.Collapse className="basic-navbar-nav">
     <Nav className="mr-auto">
       <AppLink href="/"><a className="nav-link mr-3">Accueil</a></AppLink>
       <AppLink href="/services"><a className="nav-link mr-3">Services et marchés</a></AppLink>
       <AppLink href="/particuliers"> <a className="nav-link mr-3">Partenaires</a></AppLink>
+      <AppLink href="/contact"> <a className="nav-link mr-3">Contact</a></AppLink>
      
     </Nav>
     <Form inline>
@@ -63,6 +64,12 @@ export default function Header() {
           color: #eaeaea;
           
         }
+.basic-navbar-nav{
+  color: #eaeaea;
+}
+# basic-navbar-nav{
+  color: #eaeaea;
+}
         `
       }
 
