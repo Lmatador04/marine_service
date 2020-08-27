@@ -1,6 +1,6 @@
 
 import styles from '../styles/Home.module.css'
-
+//import Body from 'next/body'
 import Head from 'next/head'
 //import {Animated} from "react-animated-css";
 //import {Navbar, Nav, NavDropdown, Form, FormControl, 
@@ -16,6 +16,7 @@ export default function Home() {
       <link rel="icon" href="/favicon.PNG" />
       
     </Head>
+  
       
       <Header/>
     

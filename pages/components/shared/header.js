@@ -1,6 +1,6 @@
-import {Navbar, Nav, NavDropdown, Form, FormControl, Button, img,Carousel
-} from 'react-bootstrap';
+import {Navbar, Nav, NavDropdown, Form, FormControl, Button, img,Carousel} from 'react-bootstrap';
 import Link from 'next/link'
+import { Download } from 'react-bootstrap-icons';
 const AppLink = ({children, className, href}) =>
 <Link href={href}>
   <a className= {className}>{children}</a>
@@ -29,7 +29,7 @@ export default function Header() {
     </Nav>
     <Form inline>
     <Button className= "mr-5" variant="outline-success ">Mail: info@macgregor-ms.com</Button>
-      <Button variant="outline-success">Contact: +33749449619</Button>
+      <Button variant="outline-success" href="brochure_fr.pdf" download><Download color="green" size={20} /> Brochure</Button>
     </Form>
   </Navbar.Collapse>
 </Navbar> 

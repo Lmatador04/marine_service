@@ -1,36 +1,33 @@
 import { Row, Col, Card, Container } from 'react-bootstrap';
 
-import { ArrowRight } from 'react-bootstrap-icons';
+import { GeoAlt,TelephoneFill,EnvelopeFill } from 'react-bootstrap-icons';
 //import styles from '../../styles/Home.module.css'
 //import { faHome } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer(){
     return(
-<div className="pt-4 my-md-5 pt-md-5 mt-3 border-top">
+<div className=" border-top">
       <Container className ="footer">
         <Row>
-          <Col xs={6} md={4}>
+          <Col xs={5} md={6}  lg={6}>
           <h5>Liens Rapides</h5>
         <ul className="list-unstyled text-small">
-          <li><a className="text-muted" href="#"><ArrowRight color="royalblue" size={96} />Services et marchés</a></li>
+          <li><a className="text-muted" href="#">Services et marchés</a></li>
           <li><a className="text-muted" href="#">Partenaires</a></li>
           <li><a className="text-muted" href="#">Accueil</a></li>
 
         </ul> 
           </Col>
-          <Col xs={6} md={4}>
+          <Col xs={7} md={6} lg={6}>
           <h5>Contactez nous</h5>
         <ul className="list-unstyled text-small">
-          <li><a className="text-muted" href="#">  Tel: +33 749 449 619/ +239 991 17586</a></li>
-          <li><a className="text-muted" href="#">   Location: Rue morta, ao lado do BISTP Sao Tomé et principe</a></li>
-          <li><a className="text-muted" href="#"> Mail: info@macgregor-ms.com</a></li>
+          <li><a className="text-muted" href="#"> <GeoAlt color="white" size={20} />  Tel: +33 749 449 619/ +239 991 17586</a></li>
+          <li><a className="text-muted" href="#"> <TelephoneFill color="white" size={20} />  Location: Rue morta, ao lado do BISTP Sao Tomé et principe</a></li>
+          <li><a className="text-muted" href="#"><EnvelopeFill color="white" size={20} /> Mail: info@macgregor-ms.com</a></li>
           <li><a className="text-muted" href="#">  Terms</a></li>
         </ul>
           </Col>
-          <Col xs={6} md={4}>
-          <small className="d-block mb-3 text-muted">&copy; 2020</small>
-
-          </Col>
+         
         </Row>
 
       <Row className= "mt-2">
@@ -42,14 +39,22 @@ export default function Footer(){
         
         </Container>
         <style jsx>{
-        `.footer{
+        `.border-top{
+          background-color: #08202e;
+          padding:10px;
+           margin-top:4rem;
+           border-top: 1px
           
-          justify-content: center;
-          align-items: center;
-          background-color: #03224c
         }
         h5{
-          color: #002e5d;
+          color: #fff;
+          font-size: 20px;
+          margin-top:4rem;
+        }
+        li{
+         font-size: 17px;
+         color: #fff;
+         margin: 7px; 
         }
         }
         `
