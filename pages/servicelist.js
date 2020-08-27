@@ -1,9 +1,11 @@
 import { Row, Col, Card, Container, Image } from 'react-bootstrap';
+import {FacebookShareCount,FacebookIcon} from "react-share";
+//import {FacebookShareCount,FacebookIcon} from "react-share";
 //import {faMapMarker, faPhone } from '@fortawesome/free-solid-svg-icons';
 export default function Servicelist() {
     return(
         <div>
-<Container>        
+<Container>  
 <Row className="mt-5">
 <Col md={6}>
     <div className="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -66,7 +68,7 @@ export default function Servicelist() {
       </Col>
   </Row>
 
-   
+  <FacebookIcon size={40} round={true} /><FacebookShareCount url={"https://marine-service.vercel.app/contact"} /><div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Partager</a></div>
 
       </Container>
       <style jsx>{

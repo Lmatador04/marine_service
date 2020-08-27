@@ -1,6 +1,8 @@
 import { Row, Col, Card, Container } from 'react-bootstrap';
 
 import { GeoAlt,TelephoneFill,EnvelopeFill } from 'react-bootstrap-icons';
+import {FacebookShareButton,LinkedinShareButton,TwitterShareButton,WhatsappShareButton} from "react-share";
+
 //import styles from '../../styles/Home.module.css'
 //import { faHome } from "@fortawesome/free-solid-svg-icons";
 
