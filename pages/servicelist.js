@@ -17,24 +17,24 @@ export default function Servicelist() {
       Transbordement."
 canonical="https://www.canonical.ie/"
       openGraph={{
-        url: 'https://www.url.ie/a',
-        title: 'Open Graph Title',
-        description: 'Open Graph Description',
+        url: 'https://marine-service.vercel.app/services',
+        title: 'MacGregor Marine intervention',
+        description: 'Nous intervenons sur le golfe de Guinée notamment au: Cameroun, Nigéria,...',
         images: [
           {
-            url: 'Damen.jpg',
+            url: 'https://marine-service.vercel.app/Damen.jpg',
             width: 800,
             height: 600,
             alt: 'Og Damen stun',
           },
           {
-            url: 'paysage.PNG',
+            url: 'https://marine-service.vercel.app/paysage.PNG',
             width: 900,
             height: 800,
-            alt: 'Og Image Alt Second',
+            alt: 'Og brochure',
           },
-          { url: 'cor1.jpg' },
-          { url: 'he1.jpg' },
+          { url: 'https://marine-service.vercel.app/cor1.jpg' },
+          { url: 'https://marine-service.vercel.app/he1.jpg' },
         ],
         site_name: 'marine-service.vercel.app',
       }}/>

@@ -18,28 +18,28 @@ export default function Home() {
       
     </Head>
     <NextSeo
-      title="Macgregor service "
-      description="Macgregor service est une entreprise spécialisée dans les services maritimes et l’affrètement dans le golfe de guinée. Constituée d’une équipe de professionnel à votre écoute. Nous vous offrons une solution adaptée et sur mesure pour chaque type d’opération."
+      title="MacGregor Marine service "
+      description="est une entreprise spécialisée dans les services maritimes et l’affrètement dans le golfe de guinée. Nous offrons une solution pour chaque type d’opération."
       canonical="https://www.canonical.ie/"
       openGraph={{
         url: 'https://www.url.ie/a',
-        title: 'Open Graph Title',
-        description: 'Open Graph Description',
+        title: 'MacGregor Marine service',
+        description: 'une entreprise spécialisée dans les services maritimes et l’affrètement dans le golfe de guinée.',
         images: [
           {
-            url: 'barge.jpg',
+            url: 'https://marine-service.vercel.app/barge.jpg',
             width: 800,
             height: 600,
             alt: 'barge macgregor',
           },
           {
-            url: 'remorqueur.jpg',
+            url: 'https://marine-service.vercel.app/remorqueur.jpg',
             width: 900,
             height: 800,
             alt: 'Og Remorqueur Macgregor marine service',
           },
-          { url: '/macgregor logo.png' },
-          { url: 'paysage.png' },
+          { url: 'https://marine-service.vercel.app/macgregor logo.png' },
+          { url: 'https://marine-service.vercel.app/paysage.png' },
         ],
         site_name: 'Macgregor marine service',
       }}
@@ -69,7 +69,7 @@ mesure pour chaque type d’opération.
     </Col>
     <Col sm={6}>
     <Card style={{ width: '20rem' }}>
-  <Card.Img variant="top" src="Damen.jpg" />
+  <Card.Img variant="top" src="Damen.jpg"  alt= "Damen barque" />
   </Card>
 
        
