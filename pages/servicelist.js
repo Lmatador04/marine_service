@@ -1,10 +1,45 @@
 import { Row, Col, Card, Container, Image } from 'react-bootstrap';
 import {FacebookShareCount,FacebookIcon} from "react-share";
+import { NextSeo } from 'next-seo';
 //import {FacebookShareCount,FacebookIcon} from "react-share";
 //import {faMapMarker, faPhone } from '@fortawesome/free-solid-svg-icons';
 export default function Servicelist() {
     return(
         <div>
+
+
+<NextSeo
+      title="MacGregor Marine Services"
+      description="MacGregor Marine Services
+      Transport fluviomaritime dans le golfe de Guinée
+      Mise à disposition d’attelage : Remorqueur + barge
+      Remorquage et assistance
+      Transbordement."
+canonical="https://www.canonical.ie/"
+      openGraph={{
+        url: 'https://marine-service.vercel.app/services',
+        title: 'MacGregor Marine intervention',
+        description: 'Nous intervenons sur le golfe de Guinée notamment au: Cameroun, Nigéria,...',
+        images: [
+          {
+            url: 'https://marine-service.vercel.app/Damen.jpg',
+            width: 800,
+            height: 600,
+            alt: 'Og Damen stun',
+          },
+          {
+            url: 'https://marine-service.vercel.app/paysage.PNG',
+            width: 900,
+            height: 800,
+            alt: 'Og brochure',
+          },
+          { url: 'https://marine-service.vercel.app/cor1.jpg' },
+          { url: 'https://marine-service.vercel.app/he1.jpg' },
+        ],
+        site_name: 'marine-service.vercel.app',
+      }}/>
+
+         
 <Container>  
 <Row className="mt-5">
 <Col md={6}>
@@ -29,7 +64,7 @@ export default function Servicelist() {
 
 <Col md={6}>
 <Card style={{ width: '20rem' }}>
-  <Card.Img variant="top" src="barq.jpg" />
+  <Card.Img variant="top" src="he.jpg" />
   </Card>
 </Col>
 
