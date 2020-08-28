@@ -13,7 +13,7 @@ export default function Home() {
    return (
     <div>
        <Head>
-      <title>Macgregor marine service</title>
+      <title>Mac Gregor Marine service</title>
       <link rel="icon" href="/favicon.PNG" />
       
     </Head>
