@@ -29,7 +29,7 @@ export default function Servicelist() {
 
 <Col md={6}>
 <Card style={{ width: '20rem' }}>
-  <Card.Img variant="top" src="barq.jpg" />
+  <Card.Img variant="top" src="he.jpg" />
   </Card>
 </Col>
 

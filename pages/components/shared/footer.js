@@ -12,21 +12,21 @@ export default function Footer(){
       <Container className ="footer">
         <Row>
           <Col xs={5} md={6}  lg={6}>
-          <h5>Liens Rapides</h5>
+          <h5 >Liens Rapides</h5>
         <ul className="list-unstyled text-small">
-          <li><a className="text-muted" href="#">Services et marchés</a></li>
-          <li><a className="text-muted" href="#">Partenaires</a></li>
-          <li><a className="text-muted" href="#">Accueil</a></li>
+          <li><a className="text-white" >Services et marchés</a></li>
+          <li><a className="text-white" >Partenaires</a></li>
+          <li><a className="text-white" >Accueil</a></li>
 
         </ul> 
           </Col>
           <Col xs={7} md={6} lg={6}>
-          <h5>Contactez nous</h5>
+          <h5  >Contactez nous</h5>
         <ul className="list-unstyled text-small">
-          <li><a className="text-muted" href="#"> <GeoAlt color="white" size={20} />  Tel: +33 749 449 619/ +239 991 17586</a></li>
-          <li><a className="text-muted" href="#"> <TelephoneFill color="white" size={20} />  Location: Rue morta, ao lado do BISTP Sao Tomé et principe</a></li>
-          <li><a className="text-muted" href="#"><EnvelopeFill color="white" size={20} /> Mail: info@macgregor-ms.com</a></li>
-          <li><a className="text-muted" href="#">  Terms</a></li>
+          <li><a className="text-white" ><TelephoneFill color="white" size={20} />   Tel: +33 749 449 619/ +239 991 17586</a></li>
+          <li><a className="text-white" > <GeoAlt color="white" size={20} />  Location: Rue morta, ao lado do BISTP Sao Tomé et principe</a></li>
+          <li><a className="text-white" ><EnvelopeFill color="white" size={20} /> Mail: info@macgregor-ms.com</a></li>
+          <li><a className="text-white" >  Terms</a></li>
         </ul>
           </Col>
          
@@ -42,7 +42,7 @@ export default function Footer(){
         </Container>
         <style jsx>{
         `.border-top{
-          background-color: #08202e;
+          background-color: #0070f3;
           padding:10px;
            margin-top:4rem;
            border-top: 1px
@@ -52,11 +52,15 @@ export default function Footer(){
           color: #fff;
           font-size: 20px;
           margin-top:4rem;
+          align-items: center;
         }
         li{
          font-size: 17px;
-         color: #fff;
+         color: #ffffff;
          margin: 7px; 
+        }
+        a{
+          color: white; 
         }
         }
         `
