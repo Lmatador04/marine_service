@@ -1,10 +1,45 @@
 import { Row, Col, Card, Container, Image } from 'react-bootstrap';
 import {FacebookShareCount,FacebookIcon} from "react-share";
+import { NextSeo } from 'next-seo';
 //import {FacebookShareCount,FacebookIcon} from "react-share";
 //import {faMapMarker, faPhone } from '@fortawesome/free-solid-svg-icons';
 export default function Servicelist() {
     return(
         <div>
+
+
+<NextSeo
+      title="MacGregor Marine Services"
+      description="MacGregor Marine Services
+      Transport fluviomaritime dans le golfe de Guinée
+      Mise à disposition d’attelage : Remorqueur + barge
+      Remorquage et assistance
+      Transbordement."
+canonical="https://www.canonical.ie/"
+      openGraph={{
+        url: 'https://www.url.ie/a',
+        title: 'Open Graph Title',
+        description: 'Open Graph Description',
+        images: [
+          {
+            url: 'Damen.jpg',
+            width: 800,
+            height: 600,
+            alt: 'Og Damen stun',
+          },
+          {
+            url: 'paysage.PNG',
+            width: 900,
+            height: 800,
+            alt: 'Og Image Alt Second',
+          },
+          { url: 'cor1.jpg' },
+          { url: 'he1.jpg' },
+        ],
+        site_name: 'marine-service.vercel.app',
+      }}/>
+
+         
 <Container>  
 <Row className="mt-5">
 <Col md={6}>
