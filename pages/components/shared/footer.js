@@ -1,4 +1,5 @@
 import { Row, Col, Card, Container } from 'react-bootstrap';
+import { CorporateContactJsonLd } from 'next-seo';
 
 import { GeoAlt,TelephoneFill,EnvelopeFill } from 'react-bootstrap-icons';
 import {FacebookShareButton,LinkedinShareButton,TwitterShareButton,WhatsappShareButton} from "react-share";
@@ -9,6 +10,26 @@ import {FacebookShareButton,LinkedinShareButton,TwitterShareButton,WhatsappShare
 export default function Footer(){
     return(
 <div className=" border-top">
+
+<CorporateContactJsonLd
+      url="https://marine-service.vercel.app"
+      logo="https://marine-service.vercel.app/macgregor logo.png"
+      contactPoint={[
+        {
+          telephone: '+33-749-449-619',
+          contactType: 'customer service',
+          contactOption: 'numéro mobile',
+          availableLanguage: [ 'French'],
+        },
+        {
+          telephone: '+23-999-117-586',
+          contactType: 'customer service',
+          contactOption: 'numéro mobile',
+          availableLanguage: 'French',
+        },
+       
+      ]}
+    />
       <Container className ="footer">
         <Row>
           <Col xs={5} md={6}  lg={6}>

@@ -10,7 +10,7 @@ export default function Servicelist() {
 
 <NextSeo
       title="MacGregor Marine Services"
-      description="MacGregor Marine Services
+      description="MacGregor Marine Services intervention
       Transport fluviomaritime dans le golfe de Guinée
       Mise à disposition d’attelage : Remorqueur + barge
       Remorquage et assistance

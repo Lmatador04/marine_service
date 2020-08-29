@@ -18,12 +18,12 @@ export default function Home() {
       
     </Head>
     <NextSeo
-      title="MacGregor Marine service "
+      title="MacGregor Marine services "
       description="est une entreprise spécialisée dans les services maritimes et l’affrètement dans le golfe de guinée. Nous offrons une solution pour chaque type d’opération."
       canonical="https://www.canonical.ie/"
       openGraph={{
         url: 'https://www.url.ie/a',
-        title: 'MacGregor Marine service',
+        title: 'MacGregor Marine services',
         description: 'une entreprise spécialisée dans les services maritimes et l’affrètement dans le golfe de guinée.',
         images: [
           {
