@@ -18,11 +18,11 @@ export default function Home() {
       
     </Head>
     <NextSeo
-      title="MacGregor Marine services "
+      title="MacGregor Marine service "
       description="est une entreprise spécialisée dans les services maritimes et l’affrètement dans le golfe de guinée. Nous offrons une solution pour chaque type d’opération."
-      canonical="https://www.canonical.ie/"
+      canonical="https://marine-service.vercel.app/"
       openGraph={{
-        url: 'https://www.url.ie/a',
+        url: 'https://marine-service.vercel.app',
         title: 'MacGregor Marine services',
         description: 'une entreprise spécialisée dans les services maritimes et l’affrètement dans le golfe de guinée.',
         images: [
