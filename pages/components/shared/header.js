@@ -21,10 +21,10 @@ export default function Header() {
   <Navbar.Toggle aria-controls="basic-navbar-nav" className= "basic-navbar-nav" />
   <Navbar.Collapse className="basic-navbar-nav">
     <Nav className="mr-auto">
-      <AppLink href="/"><a className="nav-link mr-3 text-white">Accueil</a></AppLink>
-      <AppLink href="/services"><a className="nav-link mr-3 text-white">Services et marchés</a></AppLink>
-      <AppLink href="/particuliers"> <a className="nav-link mr-3 text-white">Partenaires</a></AppLink>
-      <AppLink href="/contact"> <a className="nav-link mr-3 text-white">Contact</a></AppLink>
+      <AppLink href="/"><a className="nav-link mr-3 ">Accueil</a></AppLink>
+      <AppLink href="/services"><a className="nav-link mr-3 ">Services et marchés</a></AppLink>
+      <AppLink href="/particuliers"> <a className="nav-link mr-3 ">Partenaires</a></AppLink>
+      <AppLink href="/contact"> <a className="nav-link mr-3 ">Contact</a></AppLink>
      
     </Nav>
     <Form inline>
