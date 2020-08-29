@@ -8,7 +8,7 @@ const AppLink = ({children, className, href}) =>
 export default function Header() { 
     return (
         <>
-<Navbar bg="dark"  expand="lg">
+<Navbar bg="light"  expand="lg">
   <Navbar.Brand href="#home">
   <img
         src="/macgregor logo.png"
