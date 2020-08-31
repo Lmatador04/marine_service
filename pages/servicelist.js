@@ -64,7 +64,7 @@ canonical="https://www.canonical.ie/"
 
 <Col md={6}>
 <Card style={{ width: '20rem' }}>
-  <Card.Img variant="top" src="he.jpg" />
+  <Card.Img variant="top" src="offshore_tug.jpg" />
   </Card>
 </Col>
 
